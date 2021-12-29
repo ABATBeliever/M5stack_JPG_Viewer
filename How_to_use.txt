@@ -1,0 +1,26 @@
+1: Open the Arduino IDE
+(Please finish setting the M5stack library and com port)
+2: Copy and paste
+3: Build and write
+4: Put JPG in SD card
+(example)***
+1.jpg
+2.jpg
+3.jpg...
+************
+(Please Use a tool to reduce the size)
+5:Please enjoy ^ ^
+***********************************************************
+1: "Alduino IDE"を開いてください
+(この時、ライブラリやポートの設定は済ませておいてください)
+2: プログラムをコピペしてください
+3: "マイコンボードに書き込む"ボタンを押して、書き込んでください
+4: SDカードに画像を入れます
+(こんなかんじに)***
+1.jpg
+2.jpg
+3.jpg
+******************
+(サイズを小さくしておいてください、でないとはみ出します)
+(おすすめサイト→)https://saruwakakun.com/tools/image-resize/
+5:ゆっくりしていってね ^ ^
