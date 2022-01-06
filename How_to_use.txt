@@ -1,3 +1,4 @@
+<Setup,English>
 1: Open the Arduino IDE
 (Please finish setting the M5stack library and com port)
 2: Copy and paste
@@ -11,6 +12,8 @@
 (Please Use a tool to reduce the size)
 5:Please enjoy ^ ^
 ***********************************************************
+
+<Setup,Japanese>
 1: "Alduino IDE"を開いてください
 (この時、ライブラリやポートの設定は済ませておいてください)
 2: プログラムをコピペしてください
@@ -24,3 +27,23 @@
 (サイズを小さくしておいてください、でないとはみ出します)
 (おすすめサイト→)https://saruwakakun.com/tools/image-resize/
 5:ゆっくりしていってね ^ ^
+
+<How to use,English>
+1.0***********************************
+Left button: Show next image
+Center button: Return to 0
+Right button: Show previous image
+2.0***********************************
+Left button: Move to the next image
+Center button: Show image
+Right button: Move to the previous image
+
+<How to use,Japanese>
+1.0***********************************
+左ボタン：次の画像を表示
+中央のボタン：0に戻る
+右ボタン：前の画像を表示
+2.0***********************************
+左ボタン：次の画像へ移動
+中央のボタン：画像を表示
+右ボタン：前の画像へ移動
