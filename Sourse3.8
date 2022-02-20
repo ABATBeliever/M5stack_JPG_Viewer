@@ -1,0 +1,358 @@
+#include <M5Stack.h>
+int count = 0;
+
+void setup() {
+  M5.begin();
+  delay(500);
+}
+
+void loop() {
+ if(M5.BtnA.wasPressed())
+ {
+  count++;
+  M5.Lcd.clear();
+  M5.update();
+  M5.Lcd.drawString("JPG_Viewer V3.8 by ABATBeliever", 133, 230);
+ }
+ if(M5.BtnB.wasPressed())
+  {M5.Lcd.clear();
+   if (count == 0) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/0.jpg");
+  }
+  if (count == 1) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/1.jpg");
+  }
+  if (count == 2) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/2.jpg");
+  }
+  if (count == 3) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/3.jpg");
+  }
+  if (count == 4) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/4.jpg");
+  }
+  if (count == 5) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/5.jpg");
+  }
+  if (count == 6) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/6.jpg");
+  }
+  if (count == 7) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/7.jpg");
+  }
+  if (count == 8) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/8.jpg");
+  }
+  if (count == 9) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/9.jpg");
+  }
+  if (count == 10) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/10.jpg");
+  }
+  if (count == 11) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/11.jpg");
+  }
+  if (count == 12) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/12.jpg");
+  }
+  if (count == 13) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/13.jpg");
+  }
+  if (count == 14) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/14.jpg");
+  }
+  if (count == 15) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/15.jpg");
+  }
+  if (count == 16) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/16.jpg");
+  }
+  if (count == 17) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/17.jpg");
+  }
+  if (count == 18) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/18.jpg");
+  }
+  if (count == 19) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/19.jpg");
+  }
+  if (count == 20) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/20.jpg");
+  }
+  if (count == 21) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/21.jpg");
+  }
+  if (count == 22) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/22.jpg");
+  }
+  if (count == 23) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/23.jpg");
+  }
+  if (count == 24) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/24.jpg");
+  }
+  if (count == 25) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/25.jpg");
+  }
+  if (count == 26) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/26.jpg");
+  }
+  if (count == 27) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/27.jpg");
+  }
+  if (count == 28) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/28.jpg");
+  }
+  if (count == 29) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/29.jpg");
+  }
+  if (count == 30) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/30.jpg");
+  }
+  if (count == 31) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/31.jpg");
+  }
+  if (count == 32) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/32.jpg");
+  }
+  if (count == 33) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/33.jpg");
+  }
+  if (count == 34) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/34.jpg");
+  }
+  if (count == 35) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/35.jpg");
+  }
+  if (count == 36) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/36.jpg");
+  }
+  if (count == 37) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/37.jpg");
+  }
+  if (count == 38) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/38.jpg");
+  }
+  if (count == 39) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/39.jpg");
+  }
+  if (count == 40) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/40.jpg");
+  }
+  if (count == 41) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/41.jpg");
+  }
+  if (count == 42) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/42.jpg");
+  }
+  if (count == 43) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/43.jpg");
+  }
+  if (count == 44) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/44.jpg");
+  }
+  if (count == 45) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/45.jpg");
+  }
+  if (count == 46) 
+  {
+   M5.Lcd.drawJpgFile(SD, "/46.jpg");
+  }
+  if (count == 47) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/47.jpg");
+  }
+  if (count == 48) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/48.jpg");
+  }
+  if (count == 49) 
+  {
+    M5.Lcd.drawJpgFile(SD, "/49.jpg");
+   }
+   if (count == 50) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/50.jpg");
+   }
+   if (count == 51) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/51.jpg");
+   }
+   if (count == 52) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/52.jpg");
+   }
+   if (count == 53) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/53.jpg");
+   }
+   if (count == 54) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/54.jpg");
+   }
+   if (count == 55) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/55.jpg");
+   }
+   if (count == 56) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/56.jpg");
+   }
+   if (count == 57) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/57.jpg");
+   }
+   if (count == 58) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/58.jpg");
+   }
+   if (count == 59) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/59.jpg");
+   }
+   if (count == 60) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/60.jpg");
+   }
+   if (count == 61) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/61.jpg");
+   }
+   if (count == 62) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/62.jpg");
+   }
+   if (count == 63) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/63.jpg");
+   }
+   if (count == 64) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/64.jpg");
+   }
+   if (count == 65) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/65.jpg");
+   }
+   if (count == 66) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/66.jpg");
+   }
+   if (count == 67) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/67.jpg");
+   }
+   if (count == 68) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/68.jpg");
+   }
+   if (count == 69) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/69.jpg");
+   }
+   if (count == 70) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/70.jpg");
+   }
+   if (count == 71) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/71.jpg");
+   }
+   if (count == 72) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/72.jpg");
+   }
+   if (count == 73) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/73.jpg");
+   }
+   if (count == 74) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/74.jpg");
+   }
+   if (count == 75) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/75.jpg");
+   }
+   if (count == 76) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/76.jpg");
+   }
+   if (count == 77) 
+   {
+    M5.Lcd.drawJpgFile(SD, "/77.jpg");
+   }
+   if (count == 78) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/78.jpg");
+   }
+   if (count == 79) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/79.jpg");
+   }
+   if (count == 80) 
+   {
+     M5.Lcd.drawJpgFile(SD, "/80.jpg");
+   }
+   M5.update();
+  }
+ if(M5.BtnC.wasPressed())
+  {
+   count--;
+   M5.Lcd.clear();
+   M5.update();
+   M5.Lcd.drawString("JPG_Viewer V3.8 by ABATBeliever", 133, 230);
+  }
+ if (count < 0) 
+  {
+   count = 0;
+  }
+  M5.Lcd.drawString("JPG_NUMBER=" + String(count) + "/60", 200, 210);
+  M5.update();
+}
